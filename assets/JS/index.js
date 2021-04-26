@@ -1,3 +1,5 @@
-let conteneur = document.getElementById('conteneur')
-let testPostIT = new CPostIT (40,40,1,1,1);
+
+let conteneur = document.getElementById('test')
+
+let testPostIT = new CPostIT (40,40,"red",1,1);
 testPostIT.affPostIT();

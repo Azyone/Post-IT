@@ -18,8 +18,8 @@ class CPostIT{
     affPostIT(){
         let PostIT = document.createElement('div');
         PostIT.setAttribute('class','PostIT');
-        PostIT.style.width =(this.largeur);
-        PostIT.style.height =(this.longeur);
+        PostIT.style.width =(this.largeur)+"px";
+        PostIT.style.height =(this.longeur)+"px";
         PostIT.style.backgroundColor =(this.couleur);
         conteneur.appendChild(PostIT)
     }
