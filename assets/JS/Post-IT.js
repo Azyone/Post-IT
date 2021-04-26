@@ -1,4 +1,4 @@
-class PostIT{
+class CPostIT{
     largeur;
     longeur;
     couleur;
