@@ -51,6 +51,16 @@ body::after{
     border: solid black 1px;
     margin: 25px;
     border-radius: 5px;
+    color:white;
+}
+.postIT2{
+    border: solid black 1px;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .rouge{
     background-color: #BA274A;

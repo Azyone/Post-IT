@@ -26,7 +26,7 @@ class CPostIT{
             document.body.appendChild(PostIT);
         }
         
-        PostIT.setAttribute('class','PostIT');
+        PostIT.setAttribute('class','postIT2');
         PostIT.style.width =(this.largeur)+"px";
         PostIT.style.height =(this.longeur)+"px";
         PostIT.style.left =(this.x)+"px";
