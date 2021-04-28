@@ -2,10 +2,15 @@
     font-family: p1;
     src: url("/assets/FONTS/OriginalSurfer-Regular.ttf");
 }
+@font-face{
+    font-family: p2;
+    src: url("/assets/FONTS/Roboto-Medium.ttf");
+}
 *{
     margin: 0px;
     padding: 0px;
     z-index: 3;
+    font-family: p2;
 
 }
 body{

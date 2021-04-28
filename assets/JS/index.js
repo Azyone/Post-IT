@@ -37,9 +37,9 @@ function PosMouse(id){
         testPostIT[i].movePostIT();
     }*/
 }
-function NewPostIT(couleur){
+function NewPostIT(couleur, couleur2){
     compteur += 1;
-    testPostIT.push(new CPostIT (largeur,longeur,couleur,1,1,"test2",compteur))
+    testPostIT.push(new CPostIT (largeur,longeur,couleur,couleur2,1,1,"test2",compteur))
     let taille = testPostIT.length;
     for(i = 0; i < taille; i++) {
         testPostIT[i].affPostIT();

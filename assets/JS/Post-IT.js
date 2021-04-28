@@ -8,10 +8,11 @@ class CPostIT{
     isDrawing;
     monInterval;
 
-    constructor(largeur, longeur, couleur, x, y, texte, id){
+    constructor(largeur, longeur, couleur, couleur2, x, y, texte, id){
         this.largeur = 100;
         this.longeur = 100;
         this.couleur = couleur;
+        this.couleur2 = couleur2;
         this.x = 500;
         this.y = 500;
         this.texte = "";
@@ -41,7 +42,7 @@ class CPostIT{
         PostIT.style.top =(this.y)+"px";
         PostIT.style.position ="fixed";
         PostIT.style.backgroundColor =(this.couleur);
-        PostIT.style.color ="white";
+        PostIT.style.color =(this.couleur2);
         PostIT.innerHTML =this.texte;
         let menu = document.createElement('div');
         menu.style.height='20px';
